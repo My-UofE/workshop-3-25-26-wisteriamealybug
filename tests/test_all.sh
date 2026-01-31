@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 score=0
 if ./tests/test_01_DemoIncrement.sh; then ((score+=1)); fi
