@@ -24,10 +24,10 @@ public class AverageSquares {
         System.out.println("Average of squares from " + startNum + " to " + endNum + ":");
         double sum = 0;
         int i = startNum;
-        while (i <= endNum) {
+        do {
             sum += i * i;
             i++;
-        }
+        } while (i <= endNum);
         double average = sum / ((double) (endNum - startNum + 1)); // addition of 1 as startNum is included
         System.out.println(average);
     }
